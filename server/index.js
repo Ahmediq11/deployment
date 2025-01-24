@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.use("/", (req, res) => {
-  res.send("serveris running");
+  res.send("serveris  f running");
 });
 
 app.listen(5000, console.log("server is listening"));
